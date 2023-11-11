@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Puppy Bowl</title>
+</head>
+
+<body>
+
+    <div id="main-page">
+        <h1>Puppy Bowl Roster</h1>
+        <ul id="roster-list"></ul>
+        <form id="add-player-form">
+            <label for="player-name">Player Name:</label>
+            <input type="text" id="player-name" required>
+            <label for="player-breed">Player Breed:</label>
+            <input type="text" id="player-breed" required>
+            <label for="player-image-url"></label>
+            <input type="text" id="player-image-url">
+            <button type="button" onclick="addPlayer()">Add Player</button>
+        </form>
+    </div>
+
+    <div id="player-details">
+        <h2>Player Details</h2>
+        <p id="details-name"></p>
+        <p id="details-breed"></p>
+        <img id="details-image" alt="Player Image">
+        <p id="details-team"></p>
+        <button onclick="goBack()">Go back to the main list</button>
+        <button onclick="removePlayer()">Remove Player</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

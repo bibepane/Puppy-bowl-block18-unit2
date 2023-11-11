@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 2px;
+    border: 1.5px solid black;
+}
+
+#main-page, #player-details {
+    display: inline;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: numbers;
+    padding: 20px;
+}
+
+li {
+    margin: 15px ;
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+}
